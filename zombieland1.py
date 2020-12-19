@@ -189,7 +189,7 @@ while t!=6:
             print("There is a zombie in your way. Use your sword to kill it.")
             print("You can do so by typing the sum of the coordinates you are at.")
             sumofcoord=int(input("What is the sum: "))
-            if sumofcoord==6:
+            if sumofcoord==-2:
                 print("You have killed the zombie.")
             else:
                 print("You have failed to kill the zombie. The zombie killed you")
